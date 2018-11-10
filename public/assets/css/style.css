@@ -1,0 +1,286 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    margin-bottom: 80px;
+
+
+    
+  }
+  
+ .pageOne{
+    background-image: url("../images/wallpaper.jpg");
+    background-size:cover;
+    height: 800px;
+    
+
+ }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    color: black;
+    border-color: #333;
+  }
+  
+  .navbar {
+    margin-bottom: 0;
+    background-color:black;
+  
+  }
+  
+  #nav{
+    background-color:yellow;
+  }
+
+
+
+
+
+  .jumbotron {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    font-family: 'Unica One', cursive;
+    color:black;
+    margin-top:100px;
+  }
+  
+  .jumbotron .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: auto;
+    background-color:white; 
+  
+    
+
+  }
+
+  
+  
+  .jumbotron .caption {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .jumbotron .caption h1,
+  .jumbotron .caption p {
+    color: black;
+  }
+  
+  .jumbotron h1 {
+    font-size: 80px;
+    font-weight: 800;
+  }
+  
+  
+
+
+
+  
+    .pictureBar{
+      margin-left:70px;
+      margin-top: 50px;
+    }
+  
+  .simpson{
+      background-image: url("https://media.giphy.com/media/7TudjqAJmnpW9mYeqW/giphy.gif");
+      width:200px;
+      height:200px;
+      border-radius:30%;
+      border-color:black;
+      border-style: solid;
+      background-position: center;
+      background-size:cover;
+      margin-left:60px;
+    
+
+
+      
+      
+  }
+
+
+  .nike{
+    background-image: url("https://media.giphy.com/media/jeMmhPrGyoBoY/giphy.gif");
+    width:200px;
+    height:200px;
+    border-radius:30%;
+    border-color:black;
+    border-style: solid;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    margin-top: -200px;
+    margin-left: 300px;
+
+    
+}
+
+.basketball{
+    background-image: url("https://media.giphy.com/media/l46CqETdipTOTiRyg/giphy.gif");
+    width:200px;
+    height:200px;
+    border-radius:30%;
+    border-color:black;
+    border-style: solid;
+    background-position: center;
+    background-size:cover;
+    margin-top: -200px;
+    margin-left: 550px;
+
+}
+
+
+.media{
+    background-image: url("https://media.giphy.com/media/l0K46BDNuBnGJryiA/giphy.gif");
+    width:200px;
+    height:200px;
+    border-radius:30%;
+    border-color:black;
+    border-style: solid;
+    background-position: center;
+    background-size:cover;
+    margin-top: -200px;
+    margin-left: 800px;
+
+
+}
+
+
+.car{
+    background-image: url("https://media.giphy.com/media/AGBexxDsI3zNK/giphy.gif");
+    width:200px;
+    height:200px;
+    border-radius:30%;
+    border-color:black;
+    border-style: solid;
+    background-position: center;
+    margin-top: -200px;
+    margin-left: 1050px;
+
+
+}
+
+
+ 
+
+ .secondPage{
+    background-image: url("../images/wall.jpg");
+  background-color:yellow;
+    height: 1000px;
+    font-family: 'Unica One', cursive;
+    color: black;;
+
+ }
+
+
+
+
+
+ .article-container {
+   padding-top: 100px;
+  padding-bottom: 5px;
+}
+
+.card {
+  border-radius: 0;
+  box-shadow: 3px 3px 20px lightslategrey;
+  margin: 20px 0;
+}
+
+.card .card-header {
+  background-color: gray;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.card .card-header h3 {
+  color: white;
+}
+
+.card .card-header .btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.card .card-header .btn.delete {
+  right: 160px;
+}
+
+.card .card-body {
+  font-size: 16px;
+}
+
+.card .card-header .article-link {
+  color: white;
+  display: inline-block;
+  width: 80%;
+}
+
+.footer > .container > p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin: 0;
+  font-weight: 800;
+  background: #0c7cd5;
+}
+
+.navbar-nav > li > a.scrape-new,
+.navbar-nav > li > a.clear {
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: 800;
+  color: white;
+}
+
+.navbar-nav > li > a.scrape-new:hover,
+.navbar-nav > li > a.clear:hover {
+  background: #4caf50;
+}
+
+.navbar-nav > li > a.scrape-new:active {
+  background: #e51c23;
+}
+
+.scrape-new {
+  cursor: pointer;
+}
+
+.m-top-80 {
+  margin-top: 80px;
+}
+
+textarea {
+  padding: 10px;
+  resize: none;
+  width: 100%;
+}
+
+.bootbox-body .btn {
+  float: right;
+  margin: 5px;
+}
+
+.note.list-group-item .btn {
+  position: relative;
+  bottom: 10px;
+}
